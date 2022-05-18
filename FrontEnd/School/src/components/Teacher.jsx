@@ -32,7 +32,7 @@ export const Teacher = () => {
               navigate("/class");
             }}
           >
-            <Typography variant="h4">{item.teacher_name}</Typography>
+            <Typography variant="h2">{item.teacher_name}</Typography>
             <Typography variant="h6">{item.gender}</Typography>
             <Typography>{item.age}</Typography>
             <img src={item.img_url} alt="No image" />
